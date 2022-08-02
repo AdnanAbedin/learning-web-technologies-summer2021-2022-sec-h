@@ -1,7 +1,0 @@
-<?php
-	session_start();
-	session_unset();
-	session_destroy();
-	header("location: Login.html");
-	setcookie("status",false,time()-3600,"/");
-?>
